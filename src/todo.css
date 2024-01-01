@@ -1,0 +1,44 @@
+.todo {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo p {
+  margin: 0;
+}
+
+.todo input {
+  margin-right: 10px;
+}
+
+.todo button {
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.todo button:hover {
+  background-color: #45a049;
+}
+
+.todo button:active {
+  background-color: #3e8e41;
+}
+
+.todo {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px; /* Add margin at the bottom of each note for separation */
+}
+
+.todo button {
+  margin-right: 10px; /* Add margin between buttons in each note */
+}
